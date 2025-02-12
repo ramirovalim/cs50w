@@ -11,12 +11,29 @@
 </head>
 
 <body>
-    <div class="navbar"><a href="./index.html">Google Search</a></div>
-    <form action="https://www.google.com/search">
-        <input type="text" name="q">
-        <input type="hidden" name="tbm" value="isch">
-        <input type="submit" value="Google Search">
-    </form>
+    <div class="d-flex flex-column">
+        <div class="navbar d-flex justify-content-end">
+            <a href="./index.html">Google Search</a>
+        </div>
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+            <div>
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+                    width="272px" />
+                <span class="images">images</span>
+            </div>
+            <form class="row" action="https://www.google.com/search">
+                <div class="query-input d-flex col-12 my-3">
+                    <input type="text" name="q" class="col-12" placeholder="Search for images">
+                </div>
+                <input type="hidden" name="tbm" value="isch">
+                <div class="buttons col-12 d-flex justify-content-center">
+                    <div class="mx-2">
+                        <input type="submit" value="Google Search">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>

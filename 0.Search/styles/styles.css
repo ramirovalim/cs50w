@@ -20,6 +20,16 @@ body {
   padding: 20px;
 }
 
+.images {
+  color: #4285f4;
+  font-size: 16px;
+  z-index: 10;
+  position: relative;
+  top: 40px;
+  right: 61px;
+  white-space: nowrap;
+}
+
 form {
   width: 50%;
 }
