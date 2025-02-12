@@ -1,0 +1,77 @@
+$g-background: #fff;
+$g-color: #494949;
+$g-font: arial, sans-serif;
+
+body {
+  background-color: $g-background;
+  font-family: $g-font;
+  font-size: 14px;
+  padding: 4px;
+}
+
+.navbar {
+  padding: 6px;
+
+  a {
+    font-size: 13px;
+    color: $g-color;
+    padding: 6px;
+  }
+}
+
+.container {
+  height: 70vh;
+  gap: 20px;
+  padding: 20px;
+}
+
+form {
+  width: 50%;
+}
+
+.query-input {
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  min-height: 44px;
+  box-shadow: 0px 2px 8px 0px #3c404340;
+
+  input {
+    border: none;
+  }
+
+  input:focus-visible {
+    border: none;
+    outline: none;
+  }
+}
+
+.query-input:hover {
+  box-shadow: 0 2px 8px 1px #403c433d;
+  border-color: transparent;
+}
+
+.buttons {
+  gap: 6px;
+  padding: 4px;
+
+  input {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  input:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    border: 1px solid #dadce0;
+    color: #202124;
+  }
+}
